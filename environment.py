@@ -51,5 +51,5 @@ class Environment:
 
 env = Environment(20, 20)
 env.place_food_randomly(count=10)
-env.pheromones[5:10, 5:10] = 1.0  # add some test pheromones
+env.pheromones[5:10, 5:15] = 1.0  # add some test pheromones
 env.show()
